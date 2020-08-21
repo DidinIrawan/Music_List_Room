@@ -1,4 +1,4 @@
-package com.main.musiclistroom.room.song
+package com.main.musiclistroom.album.room_database.song
 
 class SongRepository(private val songDao: SongDao){
     fun allSong(musicId: Int) = songDao.getAllSong(musicId)

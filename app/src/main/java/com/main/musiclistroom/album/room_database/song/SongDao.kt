@@ -1,4 +1,4 @@
-package com.main.musiclistroom.room.song
+package com.main.musiclistroom.album.room_database.song
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

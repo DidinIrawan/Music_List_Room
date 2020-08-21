@@ -1,12 +1,12 @@
-package com.main.musiclistroom.viewmodel
+package com.main.musiclistroom.album.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.main.musiclistroom.room.AppRoomDatabase
-import com.main.musiclistroom.room.music.Music
-import com.main.musiclistroom.room.music.MusicRepository
+import com.main.musiclistroom.album.room_database.AppRoomDatabase
+import com.main.musiclistroom.album.room_database.music.Music
+import com.main.musiclistroom.album.room_database.music.MusicRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

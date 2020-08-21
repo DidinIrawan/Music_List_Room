@@ -1,4 +1,4 @@
-package com.main.musiclistroom.fragments
+package com.main.musiclistroom.album.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import com.main.musiclistroom.R
-import com.main.musiclistroom.room.music.Music
-import com.main.musiclistroom.viewmodel.MusicViewModel
+import com.main.musiclistroom.album.room_database.music.Music
+import com.main.musiclistroom.album.viewmodel.MusicViewModel
 import kotlinx.android.synthetic.main.fragment_new_music.*
 
 

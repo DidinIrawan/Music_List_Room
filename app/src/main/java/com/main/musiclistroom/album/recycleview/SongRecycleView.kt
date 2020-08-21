@@ -1,4 +1,4 @@
-package com.main.musiclistroom.recycleview
+package com.main.musiclistroom.album.recycleview
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import coil.api.load
 import com.main.musiclistroom.R
-import com.main.musiclistroom.room.song.SongPlaylist
+import com.main.musiclistroom.album.room_database.song.SongPlaylist
 import kotlinx.android.synthetic.main.song_list_recycle_view_layout.view.*
 
 class SongRecycleView(private val songList: SongPlaylist) : RecyclerView.Adapter<SongViewHolder>() {

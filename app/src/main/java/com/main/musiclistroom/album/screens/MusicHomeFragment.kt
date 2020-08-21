@@ -1,4 +1,4 @@
-package com.main.musiclistroom.fragments
+package com.main.musiclistroom.album.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,8 +11,8 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.main.musiclistroom.R
-import com.main.musiclistroom.recycleview.MusicRecycleView
-import com.main.musiclistroom.viewmodel.MusicViewModel
+import com.main.musiclistroom.album.recycleview.MusicRecycleView
+import com.main.musiclistroom.album.viewmodel.MusicViewModel
 import kotlinx.android.synthetic.main.fragment_music_home.*
 
 

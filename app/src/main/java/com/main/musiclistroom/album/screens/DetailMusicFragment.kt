@@ -1,4 +1,4 @@
-package com.main.musiclistroom.fragments
+package com.main.musiclistroom.album.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -13,9 +13,8 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import coil.api.load
 import com.main.musiclistroom.R
-import com.main.musiclistroom.recycleview.MusicRecycleView
-import com.main.musiclistroom.recycleview.SongRecycleView
-import com.main.musiclistroom.viewmodel.SongViewModel
+import com.main.musiclistroom.album.recycleview.SongRecycleView
+import com.main.musiclistroom.album.viewmodel.SongViewModel
 import kotlinx.android.synthetic.main.fragment_detail_music.*
 
 

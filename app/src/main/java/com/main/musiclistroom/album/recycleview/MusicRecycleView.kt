@@ -1,4 +1,4 @@
-package com.main.musiclistroom.recycleview
+package com.main.musiclistroom.album.recycleview
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +11,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import coil.api.load
 import com.main.musiclistroom.R
-import com.main.musiclistroom.room.music.Music
+import com.main.musiclistroom.album.room_database.music.Music
 import kotlinx.android.synthetic.main.music_list_recycle_view_layout.view.*
 
 class MusicRecycleView(

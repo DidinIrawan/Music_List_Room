@@ -15,26 +15,26 @@
         app:destination="@id/newSongFragment" />
     <fragment
         android:id="@+id/musicHomeFragment"
-        android:name="com.main.musiclistroom.fragments.MusicHomeFragment"
+        android:name="com.main.musiclistroom.album.screens.MusicHomeFragment"
         android:label="fragment_music_home"
         tools:layout="@layout/fragment_music_home" >
 
     </fragment>
     <fragment
         android:id="@+id/newMusicFragment"
-        android:name="com.main.musiclistroom.fragments.NewMusicFragment"
+        android:name="com.main.musiclistroom.album.screens.NewMusicFragment"
         android:label="fragment_new_music"
         tools:layout="@layout/fragment_new_music" />
     <fragment
         android:id="@+id/detailMusicFragment2"
-        android:name="com.main.musiclistroom.fragments.DetailMusicFragment"
+        android:name="com.main.musiclistroom.album.screens.DetailMusicFragment"
         android:label="fragment_detail_music"
         tools:layout="@layout/fragment_detail_music" >
 
     </fragment>
     <fragment
         android:id="@+id/newSongFragment"
-        android:name="com.main.musiclistroom.fragments.NewSongFragment"
+        android:name="com.main.musiclistroom.album.screens.NewSongFragment"
         android:label="fragment_new_song"
         tools:layout="@layout/fragment_new_song" />
 </navigation>

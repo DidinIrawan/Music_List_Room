@@ -5,7 +5,7 @@
     android:id="@+id/frameLayoutDetailMusic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.DetailMusicFragment">
+    tools:context=".album.screens.DetailMusicFragment">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/detailMusicClick"
@@ -68,7 +68,7 @@
                     android:id="@+id/songListRecycleView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_weight="1" />
             </LinearLayout>
         </LinearLayout>

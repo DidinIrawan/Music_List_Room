@@ -1,13 +1,13 @@
-package com.main.musiclistroom.room
+package com.main.musiclistroom.album.room_database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.main.musiclistroom.room.music.Music
-import com.main.musiclistroom.room.music.MusicDao
-import com.main.musiclistroom.room.song.Song
-import com.main.musiclistroom.room.song.SongDao
+import com.main.musiclistroom.album.room_database.music.Music
+import com.main.musiclistroom.album.room_database.music.MusicDao
+import com.main.musiclistroom.album.room_database.song.Song
+import com.main.musiclistroom.album.room_database.song.SongDao
 
 @Database(entities = arrayOf(Music::class, Song::class), version = 1, exportSchema = false)
 public abstract class AppRoomDatabase : RoomDatabase() {

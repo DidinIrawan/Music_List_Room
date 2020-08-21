@@ -1,7 +1,7 @@
-package com.main.musiclistroom.room.song
+package com.main.musiclistroom.album.room_database.song
 
 import androidx.room.*
-import com.main.musiclistroom.room.music.Music
+import com.main.musiclistroom.album.room_database.music.Music
 
 @Entity
 class Song(
